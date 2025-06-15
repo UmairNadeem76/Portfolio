@@ -43,7 +43,7 @@ const certificates: Certificate[] = [
     title: 'Android App Development',
     issuer: 'Meta',
     image: '/android-cert.jpg',
-    link: '/Coursera 0LRPUYHNB6AY.pdf'
+    link: '/Coursera HK6XAL3QCTF7.pdf'
   },
   {
     title: 'Developing Front-End Apps with React',
