@@ -216,7 +216,7 @@ export default function Home() {
                 Hi, I'm <span className="text-primary">Muhammad Umair Nadeem</span>
               </h1>
               <p className="text-xl text-secondary dark:text-gray-300 mb-8">
-                Software Engineer passionate about building responsive, scalable, and user-focused applications.
+                Software Engineer Passionate About Building Responsive, Scalable, And User-Focused Applications.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <motion.a
