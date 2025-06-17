@@ -37,6 +37,27 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Unsplash API'],
     image: '/project5.jpg',
     link: 'https://github.com/UmairNadeem76/Image-Search-Application-Using-Unsplash-API'
+  },
+  {
+    title: 'To-Do List App',
+    description: "A simple and efficient Android To-Do list application developed using Java and Kotlin. The app allows users to add, update, and delete tasks with a clean user interface and persistent storage. Designed with a focus on usability and performance, it's a lightweight productivity tool tailored for mobile users.",
+    technologies: ['Java', 'Kotlin', 'Android Views', 'Gradle'],
+    image: '/project6.jpg',
+    link: 'https://github.com/UmairNadeem76/To-Do-List-App'
+  },
+  {
+    title: 'Quotes App',
+    description: 'A clean and lightweight Android app built in Java that displays motivational and categorized quotes. Users can swipe manually to browse through quotes, with smooth transitions and organized categories enhancing readability and engagement. Designed for simplicity and a positive user experience.',
+    technologies: ['Java', 'RecyclerView', 'XML Layouts', 'Gradle'],
+    image: '/project7.jpg',
+    link: 'https://github.com/UmairNadeem76/Quotes-App'
+  },
+  {
+    title: 'Weather App',
+    description: 'An intuitive Kotlin-based weather app that allows users to search for real-time weather updates by city. The app fetches data via API, showing current temperature, conditions, and other weather metrics in a clean, user-friendly interface. Designed to be fast, responsive, and easy to navigate.',
+    technologies: ['Kotlin', 'XML Layouts', 'Gradle'],
+    image: '/project8.jpg',
+    link: 'https://github.com/UmairNadeem76/Weather-App'
   }
 ]
 
