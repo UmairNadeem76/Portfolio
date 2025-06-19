@@ -118,6 +118,7 @@ export default function Home() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
                 <a href="#about" className="nav-link">About</a>
+                <a href="#experience" className="nav-link">Experience</a>
                 <a href="#projects" className="nav-link">Projects</a>
                 <a href="#certifications" className="nav-link">Certifications</a>
                 <a href="#contact" className="nav-link">Contact</a>
@@ -174,6 +175,13 @@ export default function Home() {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About
+                </a>
+                <a
+                  href="#experience"
+                  className="block nav-link"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Experience
                 </a>
                 <a
                   href="#projects"
@@ -337,6 +345,29 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Experience Section */}
+      <section id="experience" className="py-20 bg-white dark:bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Professional Experience</h2>
+            <div className="w-24 h-1 bg-primary mx-auto"></div>
+          </div>
+          <div className="relative border-l border-gray-300 dark:border-gray-700 pl-8 max-w-3xl mx-auto">
+            {/* Experience Entry Example */}
+            <div className="mb-12 relative">
+              <span className="absolute -left-4 top-2 w-3 h-3 bg-primary rounded-full border-2 border-white dark:border-gray-900"></span>
+              <span className="text-xs font-mono text-primary">Sep 2024 - Nov 2024</span>
+              <h3 className="text-xl font-semibold mt-1 text-gray-900 dark:text-white">.NET Full Stack Developer Intern</h3>
+              <div className="text-primary mb-2">10Pearls Pakistan <span className="text-primary/80">- Shine Internship Program</span></div>
+              <p className="text-gray-700 dark:text-gray-300 text-justify">
+                During my internship at 10Pearls, I developed a full-stack task management application using ASP.NET Core (.NET 8) and React.js with TypeScript. I implemented JWT-based authentication, role-based access control, real-time updates, and dynamic server-side filtering. The backend featured Entity Framework Core with SQL Server, soft deletes, and optimized queries. I also integrated structured logging via Serilog, tested thoroughly with XUnit, and maintained high code quality with SonarQube. On the frontend, I built responsive UI components with form validation using React Hook Form and Zod. I collaborated using Git, participated in regular mentor sync-ups, and gained experience in building scalable, production-ready systems.
+              </p>
+            </div>
+            {/* Add more entries as needed */}
           </div>
         </div>
       </section>
