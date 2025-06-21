@@ -9,7 +9,7 @@ import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 import { FaLinkedin, FaGithub, FaJava, FaPython, FaNodeJs } from 'react-icons/fa'
-import { SiPython, SiKotlin, SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiDotnet, SiMongodb, SiMysql } from 'react-icons/si'
+import { SiPython, SiKotlin, SiHtml5, SiCss3, SiJavascript, SiReact, SiTypescript, SiDotnet, SiMongodb, SiMysql, SiDocker } from 'react-icons/si'
 import React from 'react'
 
 const skills = [
@@ -29,6 +29,7 @@ const skills = [
   { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
   { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
   { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
+  { name: 'Docker', icon: SiDocker, color: '#2496ED' },
 ]
 
 interface Certificate {
