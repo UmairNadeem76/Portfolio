@@ -60,7 +60,7 @@ export default function Contact() {
       setFormStatus({
         submitted: true,
         error: false,
-        message: 'Thank you for your message! I will get back to you soon.',
+        message: 'Thank You For Your Message! I Will Get Back To You Soon.',
         loading: false
       })
       setFormData({ name: '', email: '', message: '' })
@@ -175,7 +175,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-white dark:bg-gray-800 text-dark dark:text-light"
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-white dark:bg-gray-800 text-dark dark:text-light resize-none"
                   required
                   disabled={formStatus.loading}
                 />
