@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@heroicons/react": "^2.2.0",
     "autoprefixer": "^10.4.17",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^11.18.2",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
