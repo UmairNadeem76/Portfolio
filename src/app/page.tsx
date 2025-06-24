@@ -16,7 +16,7 @@ const skills = [
   // Programming Languages
   { name: 'Java', icon: FaJava, color: '#007396' },
   { name: 'Python', icon: FaPython, color: '#3776AB' },
-  { name: 'C#', icon: SiDotnet, color: '#239120' },
+  { name: 'C#', icon: '/csharp.png', color: '#239120' },
   { name: 'Kotlin', icon: SiKotlin, color: '#7F52FF' },
   // Frontend Development
   { name: 'HTML5', icon: SiHtml5, color: '#E34F26' },
@@ -321,7 +321,16 @@ export default function Home() {
                       className="flex flex-col items-center justify-center mx-8"
                     >
                       <div className="text-4xl mb-2" style={{ color: skill.color }}>
-                        {React.createElement(skill.icon)}
+                        {typeof skill.icon === 'string' ? (
+                          <img
+                            src={skill.icon}
+                            alt={skill.name}
+                            className="w-10 h-10 object-contain"
+                            style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.15))' }}
+                          />
+                        ) : (
+                          React.createElement(skill.icon)
+                        )}
                       </div>
                       <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                         {skill.name}
@@ -336,7 +345,16 @@ export default function Home() {
                       className="flex flex-col items-center justify-center mx-8"
                     >
                       <div className="text-4xl mb-2" style={{ color: skill.color }}>
-                        {React.createElement(skill.icon)}
+                        {typeof skill.icon === 'string' ? (
+                          <img
+                            src={skill.icon}
+                            alt={skill.name}
+                            className="w-10 h-10 object-contain"
+                            style={{ filter: 'drop-shadow(0 1px 2px rgba(0,0,0,0.15))' }}
+                          />
+                        ) : (
+                          React.createElement(skill.icon)
+                        )}
                       </div>
                       <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                         {skill.name}
