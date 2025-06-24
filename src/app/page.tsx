@@ -239,7 +239,7 @@ export default function Home() {
                 <motion.a
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  href="/resume.pdf"
+                  href="/Muhammad Umair Nadeem Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary bg-secondary hover:bg-secondary/90"
