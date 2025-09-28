@@ -30,6 +30,9 @@ const skills = [
   { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
   { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
   { name: 'Docker', icon: SiDocker, color: '#2496ED' },
+
+  // Automation / Workflow Orchestration
+  { name: 'n8n', icon: '/n8n.png', color: '#0FAF97' },
 ]
 
 interface Certificate {
@@ -101,6 +104,13 @@ export default function Home() {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const handleContactClick = () => {
+    const contactSection = document.getElementById('contact')
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' })
+    }
   }
 
   if (!mounted) {
